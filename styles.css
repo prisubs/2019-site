@@ -57,8 +57,13 @@ a{
 
 .stylednav {
 	font-family: 'Amatic SC', cursive;
+	text-decoration: none;
 }
 
 .footer {
-	color: #dadce0;
+	color: black;
+}
+
+img {
+	height: 150px;
 }
