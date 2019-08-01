@@ -1,10 +1,10 @@
 
 
-@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro|Source+Serif+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Amatic+SC|Roboto&display=swap');
 
 
 body {
-	font-family: 'Source Sans Pro', sans-serif;
+	font-family: 'Roboto', sans-serif;
 	margin-left: 20%;
 	margin-right: 20%;
 	margin-bottom: 20%;
@@ -13,9 +13,9 @@ body {
 }
 
 .header{
-	font-size: 35px;
+	font-size: 40px;
 	text-align: center;
-	font-family: 'Source Serif Pro', serif;
+	font-family: 'Amatic SC', cursive;
 	
 }
 
@@ -56,22 +56,12 @@ a{
 }
 
 .stylednav {
-	font-family: 'Source Serif Pro', serif;
+	font-family: 'Amatic SC', cursive;
 	text-decoration: none;
 }
 
 .footer {
 	color: black;
-}
-
-.liney-top{
-	border-top: 1px solid #1059eb;
-	margin: 20px;
-}
-
-.liney-bottom{
-	border-bottom: 1px solid #1059eb;
-	margin: 20px;
 }
 
 img {
