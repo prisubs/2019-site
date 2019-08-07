@@ -8,6 +8,10 @@ body {
 	margin-bottom: 20%;
 	margin-top: 10%;
 	text-align: center;
+	border: 1px solid #1059eb;
+	margin: 20px;
+	padding-left: 30px;
+	padding-right: 30px;
 }
 
 .header{
@@ -37,6 +41,7 @@ body {
 
 a{
 	color: black;
+	padding: 2px;
 }
 
 .teal {
@@ -62,6 +67,8 @@ a{
 
 .footer {
 	color: black;
+	text-align: center;
+	padding: 5px;
 }
 
 .liney-top{
