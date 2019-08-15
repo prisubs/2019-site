@@ -3,15 +3,6 @@
 
 body {
 	font-family: 'Source Sans Pro', sans-serif;
-	margin-left: 20%;
-	margin-right: 20%;
-	margin-bottom: 20%;
-	margin-top: 10%;
-	text-align: center;
-	border: 1px solid #1059eb;
-	margin: 20px;
-	padding-left: 30px;
-	padding-right: 30px;
 }
 
 .header{
@@ -21,22 +12,14 @@ body {
 	
 }
 
-.lefty {
-	text-align: left
-}
-
-.righty {
-	text-align: right
-}
-
 .banner {
-	margin-top: 100px;
 	font-size: 80px;
 }
 
 .description{
 	font-size: 22px;
-	color: #76797c;
+	text-align: center;
+	
 }
 
 a{
@@ -65,30 +48,23 @@ a{
 	text-decoration: none;
 }
 
-.footer {
-	color: black;
+.boxy {
+	border: 1px solid #1059eb;
+	width: 50%;
+	padding: 15px;
+	margin: 15px;
+}
+
+.left {
+	float: left;
+}
+
+.right {
+	float: right;
+}
+
+.center {
 	text-align: center;
-	padding: 5px;
-}
-
-.liney-top{
-	border-top: 1px solid #1059eb;
-	margin: 20px;
-}
-
-.liney-bottom{
-	border-bottom: 1px solid #1059eb;
-	margin: 20px;
-}
-
-img {
-	height: 200px;
-	margin: 10px;
-}
-
-.caption {
-	font-size: 20px;
-	text-align: center;
-	font-family: 'Source Serif Pro', serif;
-	color: gray;
+	width: 70%;
+	float: right;
 }
