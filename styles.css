@@ -1,8 +1,29 @@
 @import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro|Source+Serif+Pro&display=swap');
 
+@font-face {
+font-family: 'Apercu Regular';
+font-style: normal;
+font-weight: normal;
+src: local('Apercu Regular'), url('fonts/Apercu_Regular.woff') format('woff');
+}
+
+@font-face {
+font-family: 'Apercu Bold';
+font-style: normal;
+font-weight: normal;
+src: local('Apercu Bold'), url('fonts/Apercu Bold.woff') format('woff');
+}
+
+@font-face {
+font-family: 'Apercu Light Italic';
+font-style: normal;
+font-weight: normal;
+src: local('Apercu Light Italic'), url('fonts/Apercu Light Italic.woff') format('woff');
+}
+
 
 body {
-	font-family: 'Source Sans Pro', sans-serif;
+	font-family: 'Apercu Regular';
 	background-image: url("bkr.jpeg");
   	background-repeat: repeat; 
   	background-attachment: fixed;
@@ -11,7 +32,6 @@ body {
 .header{
 	font-size: 35px;
 	text-align: center;
-	font-family: 'Source Serif Pro', serif;
 	
 }
 
