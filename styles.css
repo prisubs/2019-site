@@ -3,6 +3,9 @@
 
 body {
 	font-family: 'Source Sans Pro', sans-serif;
+	background-image: url("bkr.jpeg");
+  	background-repeat: repeat; 
+  	background-attachment: fixed;
 }
 
 .header{
@@ -53,6 +56,7 @@ a{
 	width: 50%;
 	padding: 15px;
 	margin: 15px;
+	background-color: white;
 }
 
 .left {
