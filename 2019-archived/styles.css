@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro|Source+Serif+Pro&display=swap');
+
+@font-face {
+font-family: 'Apercu Regular';
+font-style: normal;
+font-weight: normal;
+src: local('Apercu Regular'), url('fonts/Apercu_Regular.woff') format('woff');
+}
+
+@font-face {
+font-family: 'Apercu Bold';
+font-style: normal;
+font-weight: normal;
+src: local('Apercu Bold'), url('fonts/Apercu Bold.woff') format('woff');
+}
+
+@font-face {
+font-family: 'Apercu Light Italic';
+font-style: normal;
+font-weight: normal;
+src: local('Apercu Light Italic'), url('fonts/Apercu Light Italic.woff') format('woff');
+}
+
+body:before {
+  content: "";
+  display: block;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -10;
+  background: url("bkr.jpeg") no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+body {
+	font-family: 'Apercu Regular';
+}
+
+.header{
+	font-size: 35px;
+	text-align: center;
+	
+}
+
+.banner {
+	font-size: 80px;
+}
+
+.description{
+	font-size: 22px;
+	text-align: center;
+	
+}
+
+a{
+	color: black;
+	padding: 2px;
+}
+
+.teal {
+	color: #0ec497;
+}
+
+.cyan {
+	color: #1059eb
+}
+
+.nav {
+	font-size: 30px;
+	margin-right: 10px;
+	margin-left: 10px;
+	color: white;
+	background-color: #1059eb;
+}
+
+.stylednav {
+	font-family: 'Source Serif Pro', serif;
+	text-decoration: none;
+}
+
+.boxy {
+	border: 1px solid #1059eb;
+	width: 50%;
+	padding: 15px;
+	margin: 15px;
+	background-color: white;
+}
+
+.left {
+	float: left;
+}
+
+.right {
+	float: right;
+}
+
+.center {
+	text-align: center;
+	width: 70%;
+	float: right;
+}
