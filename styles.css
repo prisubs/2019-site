@@ -53,5 +53,13 @@ a{
 	padding-top: 0px;
 	font-size: 25px;
 	color: #f55925
+}
 
+.lincco{
+	font-size: 28px;
+	color: #320187;
+	border: 1px solid;
+	padding: 8px;
+	text-align: center;
+	margin-left: 130px;
 }
